@@ -1,0 +1,26 @@
+title: "Martin O'Hanlon"
+description: >-
+  Hi, I'm Martin — a computer science educator, developer advocate and software developer.
+url: "https://ohanlonweb.com"
+author: "Martin O'Hanlon"
+
+markdown: kramdown
+kramdown:
+  auto_ids: false
+  smart_quotes: apos,apos,quot,quot
+  typographic_symbols:
+    mdash: "---"
+    ndash: "--"
+    hellip: "..."
+    laquo: "<<"
+    raquo: ">>"
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - README.md
+  - CLAUDE.md

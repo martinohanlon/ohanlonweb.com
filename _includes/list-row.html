@@ -1,0 +1,5 @@
+<a class="list-row" href="{{ include.item.url }}" target="_blank" rel="noopener">
+  {%- if include.item.date %}<span class="list-row-date">{{ include.item.date }}</span>{% endif -%}
+  <span class="list-row-title">{{ include.item.title }}</span>
+  {%- if include.item.meta %}<span class="list-row-meta">{{ include.item.meta }}</span>{% endif -%}
+</a>

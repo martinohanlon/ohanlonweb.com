@@ -1,0 +1,17 @@
+---
+- date: '2026-09-09'
+  title: Why Do Vector Search Chatbots Confidently Give You Wrong Answers?
+  url: https://www.stuffaboutcode.com/posts/why-do-vector-search-chatbots-confidently-give-you-wrong-answers/
+  meta: "#neo4j #graphrag"
+- date: '2026-09-08'
+  title: Introduction to Neo4j and Graph Databases
+  url: https://www.stuffaboutcode.com/posts/introduction-to-neo4j-and-graph-databases/
+  meta: "#neo4j #graph-database"
+- date: '2026-08-02'
+  title: Bringing stuffaboutcode.com back to life
+  url: https://www.stuffaboutcode.com/posts/bringing-stuffaboutcode-back-to-life/
+  meta: "#blogging #ai"
+- date: '2026-07-22'
+  title: RAG vs GraphRAG — Two Retrievers, One Question
+  url: https://www.stuffaboutcode.com/posts/rag-vs-graphrag-two-retrievers-one-question/
+  meta: "#graphrag #neo4j"

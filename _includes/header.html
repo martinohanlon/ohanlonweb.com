@@ -1,0 +1,14 @@
+<header class="header">
+  <div class="header-inner">
+    <a href="{{ '/' | relative_url }}" class="logo">&lt;Martin<span class="accent">O'Hanlon</span>/&gt;</a>
+    <nav class="nav">
+      <a class="nav-section-link" href="{{ '/' | relative_url }}#blog">blog</a>
+      <a class="nav-section-link" href="{{ '/' | relative_url }}#learning">learning</a>
+      <a class="nav-section-link" href="{{ '/' | relative_url }}#software">software</a>
+      <a class="nav-section-link" href="{{ '/' | relative_url }}#articles">articles</a>
+      <a class="nav-section-link" href="{{ '/' | relative_url }}#literature">literature</a>
+      <a href="{{ '/about.html' | relative_url }}"{% if page.url == '/about.html' %} class="active"{% endif %}>about / cv</a>
+      <button class="theme-toggle" id="theme-toggle">☾ dark</button>
+    </nav>
+  </div>
+</header>
