@@ -22,7 +22,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
+        # Always build/deploy main, regardless of which ref triggered this
+        # run. Without this, a schedule or manually-dispatched run defaults
+        # to checking out the default branch (development), which could be
+        # ahead of main with unreviewed work — main is the only branch that's
+        # supposed to be "what's live".
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
